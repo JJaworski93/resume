@@ -148,6 +148,7 @@ img {
   color: #fff; }
   #header-home .header-content {
     text-align: center;
+    text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
     color: white;
     padding-top: 20%; }
     #header-home .header-content h1 {
