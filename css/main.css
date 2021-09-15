@@ -142,11 +142,12 @@ img {
 /* --------------- header-home ----------------- */
 
 .header-addon, .lead {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   margin: 2rem 0;}
 
 .header-addon {
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
+  backdrop-filter: blur(3px);
+  text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;}
 
 #header-home {
   background: url("../img/backgrY.png") no-repeat center right/cover;
@@ -158,6 +159,7 @@ img {
     padding-top: 20%; }
     #header-home .header-content h1 {
       font-size: 4rem;
+      backdrop-filter: blur(5px);
       text-shadow: -0.5px 0 black, 0 0.5px black, 0.5px 0 black, 0 -0.5px black;
       line-height: 1.2; }
 
