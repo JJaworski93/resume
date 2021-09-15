@@ -8,8 +8,7 @@
   --sky3: linear-gradient(120deg, #e9fcff 1%, #afd4fc 100%);
   --sky4: linear-gradient(120deg, #effafc 1%, #c8e3ff 100%);
   --orang: linear-gradient(120deg, #ffc037 1%, #ff8c00 100%);
-  --orang2: linear-gradient(120deg, #fedc94 1%, #ff0000 100%);
-
+  --orang2: linear-gradient(120deg, #E2B177 15%, #FF8C00 100%);
 
 }
 
@@ -57,13 +56,13 @@ img {
     cursor: pointer; 
     color: #000;
     /*background: var(--orang);*/
-    background: #fff;
+    background: var(--orang2);
     font-size: 1.6rem;
     font-weight: 900;
   }
   
   .btn-light:hover {
-    background: var(--orang2); 
+    background: #fff; 
   }
 
   /* ---x---x-- buttons --x---x--- */
